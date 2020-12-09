@@ -53,6 +53,11 @@ Following the manufacturer's steps, you should look at these that are the most i
 5. In **Fab Modules** we can generate a .nc file using the **Othermill** program. 
 6. In **Mods** we will create it using the **GCODE mill 2D PCB png** program.
 
+We have followed [Jacopo Di Matteo's](http://fabacademy.org/2019/labs/waag/students/jacopo-dimatteo/assignments/week05/) documentation which includes a Mods module for mills in V.
+
+This is the result.
+![](https://i.imgur.com/JYk7TFk.jpg)
+
 **MORE INFORMATION**
 
 [Sainsmart Wiki](http://wiki.sainsmart.com/index.php/101-60-280PRO)
