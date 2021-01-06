@@ -42,22 +42,36 @@ Following the manufacturer's steps, you should look at these that are the most i
 
 ![](https://i.imgur.com/fZOXMmG.jpg)
 
-
 **INSTALLATION AND CONFIGURATION**
 
 1. We need to install the CH340 driver.
 2. We will execute the GRBL Control and in Settings we will update the communication port. **Important** if the machine is connected to the remote control it will not work from the computer. For MAC you can follow this tutorial:
 [GRBL Candle for Mac](https://docs.sainsmart.com/article/zcyhab7a0k-how-to-install-grblcontrol-candle-for-mac)
-3. **IMPORTANT:** Some of the motors may be inverted, for this we will modify the GRBL configuration. Through this *$$* command we will identify what values the GRBL has. In the value *$ 3 = ??* We will have to review the table of the following [link](https://github.com/gnea/grbl/wiki/Grbl-v1.1-Configuration#3--direction-port-invert-mask) to see what value we need to change.
-4. We will adjust the Zero XY and Zero Z. We will load a file extension .nc
-5. In **Fab Modules** we can generate a .nc file using the **Othermill** program. 
-6. In **Mods** we will create it using the **GCODE mill 2D PCB png** program.
+3. We will adjust the Zero XY and Zero Z. We will load a file extension .nc
+4. **IMPORTANT:** Some of the motors may be inverted, for this we will modify the GRBL configuration. Through this "$$""  command we will identify what values the GRBL has. In the value "$ 3 = ??"" We will have to review the table of the following [link](https://github.com/gnea/grbl/wiki/Grbl-v1.1-Configuration#3--direction-port-invert-mask) to see what value we need to change.
+
+**PCB PRODUCTION**
+
+1. In **Fab Modules** we can generate a .nc file using the **Othermill** program. 
+2. In **Mods** we will create it using the **GCODE mill 2D PCB png** program.
+
 
 We have followed [Jacopo Di Matteo's](http://fabacademy.org/2019/labs/waag/students/jacopo-dimatteo/assignments/week05/) documentation which includes a Mods module for mills in V.
 
 This is the result.
+
 ![](https://i.imgur.com/JYk7TFk.jpg)
+
+**2.5D STL (MOLDING AND CASTING)**
+
+1. In **Mods** we will create it using the **GCODE mill 2.5D stl** program.
+2. If we vary the value in the offset number (0.8) or the offset setpower (0.5) we will achieve a finer or coarser milling. Remember to put in mm. The cut speed 50 mm/s.
+
+![](https://i.imgur.com/bEEli6F.jpg)
+
 
 **MORE INFORMATION**
 
 [Sainsmart Wiki](http://wiki.sainsmart.com/index.php/101-60-280PRO)
+
+
