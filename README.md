@@ -65,9 +65,12 @@ This is the result.
 **2.5D STL (MOLDING AND CASTING)**
 
 1. In **Mods** we will create it using the **GCODE mill 2.5D stl** program.
-2. If we vary the value in the offset number (0.8) or the offset setpower (0.5) we will achieve a finer or coarser milling. Remember to put in mm. The cut speed 50 mm/s.
+2. If we vary the value in the offset number (0.8) or the offset setpower (0.5) we will achieve a finer or coarser milling. Remember to put in mm. The cut speed 25 mm/s.
+3. Then with the **Shopbot mill 3D** module, we will have to change the module at the end for one that generates the GCODE. The Stepover will be 0.2 and with a flat end mill.Cut speed 2.5 mm/s.
 
-![](https://i.imgur.com/bEEli6F.jpg)
+![](https://i.imgur.com/why4d9c.jpg)
+
+
 
 
 **MORE INFORMATION**
