@@ -64,6 +64,13 @@ Following the manufacturer's steps, you should look at these that are the most i
 
 ![](https://i.imgur.com/why4d9c.jpg)
 
+# ADDING END-STOPS / LIMIT SWITCHES
+
+Thanks to [Felipe Gomes](http://fabacademy.org/2019/labs/barcelona/students/felipe-santos/WebSiteR02/index.html) (former student of the Fab Academy in Barcelona), I pass the following link where he has updates for the End-stops.
+
+- [Ends stops](http://blog.shahada.abubakar.net/post/adding-end-stops-limit-switches-to-the-3018-woodpecker-cnc-router)
+
+
 
 # PCB PRODUCTION
 
